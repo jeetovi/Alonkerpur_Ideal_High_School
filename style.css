@@ -4,8 +4,12 @@
 
 .modal{
     box-sizing: border-box;
+    width: 100%;
 }
-
+.modal-body {
+    width: 75%;
+}
+ 
 .card-shadow {
     -webkit-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
