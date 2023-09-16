@@ -24,42 +24,51 @@ font-family: 'Source Sans 3', sans-serif;
 }
 .card{
    
-    border: 2px solid rgb(0, 0, 0);
-    -webkit-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
+    border: 1px solid rgb(246, 6, 6);
+    -webkit-box-shadow: 1px 6px 15px -1px rgba(1, 1, 1, 0.75);
+    -moz-box-shadow: 1px 6px 15px -1px rgba(28, 27, 27, 0.75);
+    box-shadow: 1px 6px 15px -1px rgba(11, 11, 11, 0.75);
     transition: 0.3s;
+    padding: 10PX;
 }
  .footer{
-     border: 2px solid rgb(0, 0, 0);
-    -webkit-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
+    
+    border: 1px solid rgb(246, 6, 6);
+    -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
+    -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
+    box-shadow: 1px 6px 15px -1px rgba(82, 81, 81, 0.75);
     transition: 0.3s;
+    padding: 10PX;
 
  }
  .massage{
-    border: 2px solid rgb(0, 0, 0);
-    -webkit-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
+  
+    border: 1px solid rgb(246, 6, 6);
+    -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
+    -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
+    box-shadow: 1px 6px 15px -1px rgba(82, 81, 81, 0.75);
     transition: 0.3s;
+    padding: 10PX;
 
  }
  .youtube{
-    border: 2px solid rgb(0, 0, 0);
-    -webkit-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
+  
+    border: 1px solid rgb(246, 6, 6);
+    -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
+    -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
+    box-shadow: 1px 6px 15px -1px rgba(82, 81, 81, 0.75);
     transition: 0.3s;
+    padding: 10PX;
  }
 
 .table-section{
-    border: 2px solid rgb(0, 0, 0);
-    -webkit-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
+   
+    border: 1px solid rgb(246, 6, 6);
+    -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
+    -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
+    box-shadow: 1px 6px 15px -1px rgba(82, 81, 81, 0.75);
     transition: 0.3s;
+    padding: 10PX;
 }
 .carousel-item:hover{
     border: 1px dashed rgb(0, 0, 0);
@@ -67,6 +76,7 @@ font-family: 'Source Sans 3', sans-serif;
     -moz-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     transition: 0.3s;
+padding: 10PX;
 }
 
 

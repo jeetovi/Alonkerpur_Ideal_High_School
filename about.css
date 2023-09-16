@@ -11,7 +11,7 @@ body {
     margin-top: 50px;
   }
   
-  .item {
+  .item2 {
     border: 5px solid black;
     padding: 50px 40px;
     background-color: #ffffff;
@@ -25,7 +25,7 @@ body {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
   }
   
-  .item .title {
+  .item2 .title {
     font-size: 22px;
     font-weight: 600;
     margin: 0;
@@ -33,7 +33,7 @@ body {
     margin-top: 1rem;
   }
   
-  .item .text {
+  .item2 .text {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -41,7 +41,7 @@ body {
     margin-top: 10px;
   }
   
-  .item .icon {
+  .item2 .icon {
     display: "flex";
     justify-content: "center";
     align-items: "center";
@@ -55,7 +55,7 @@ body {
     overflow-x: visible;
   }
   
-  .item .icon .vector {
+  .item2 .icon .vector {
     width: 2.5rem;
     position: relative;
     top: 1.25rem;
