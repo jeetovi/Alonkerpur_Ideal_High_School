@@ -1,16 +1,10 @@
 *{
     box-sizing: border-box;
-}
-
-.modal{
-    box-sizing: border-box;
-    width: 100%;
-}
-.modal-body {
-    width: 75%;
+     
 }
  
-.card-shadow {
+ 
+/* .card-shadow {
     -webkit-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
@@ -21,7 +15,7 @@
     -moz-box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
     box-shadow: 1px 6px 15px -1px rgba(0,0,0,0.75);
     transition: 0.3s;
-}
+} */
 
 body{
 
