@@ -40,16 +40,6 @@
     </section>
     <!-- marquee section s end-->
 
-
-
-
-
-
-
-
-   
-
-
     <!-- navbar section start -->
     <section class="container">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -100,6 +90,10 @@
 
    
 
+      
+
+
+   
     
     
   
@@ -114,45 +108,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="JS/owl.carousel.min.js"></script>
  
-     
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-        document.querySelector('input[type="file"]').addEventListener('change', function () {
-            const fileInput = this;
-            const uploadedImage = document.getElementById('uploadedImage');
-            
-            if (fileInput.files && fileInput.files[0]) {
-                const reader = new FileReader();
-                
-                reader.onload = function (e) {
-                    uploadedImage.src = e.target.result;
-                };
-                
-                reader.readAsDataURL(fileInput.files[0]);
-            }
-        });
-    </script>
-    
-
-
-
-
-
-
-
-
-
 
 
 </body>

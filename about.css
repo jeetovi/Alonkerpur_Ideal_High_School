@@ -61,3 +61,7 @@ body {
     top: 1.25rem;
   }
   
+  .border-2 {
+
+    border: red 2px solid;
+  }
