@@ -54,25 +54,25 @@ font-family: 'Source Sans 3', sans-serif;
     transition: 0.3s;
     padding: 10PX;
 }
-.carousel-item:hover{
+/* .carousel-item:hover{
     border: 1px dashed rgb(0, 0, 0);
     -webkit-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
     transition: 0.3s;
 padding: 10PX;
-}
+} */
 
 
 
 
-.img-width{
+/* .img-width{
     width: 100%;
     height: 200px;
     box-sizing: border;
     overflow: scroll;
 }
- 
+  */
 
 
 .Teacher img{

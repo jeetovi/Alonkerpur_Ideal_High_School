@@ -1,7 +1,7 @@
 function loadPage(page) {
     // You can implement logic here to load content based on the page
     const contentDiv = document.getElementById('content');
-    contentDiv.innerHTML = `<h2>${page} Page Content</h2>`;
+    contentDiv.innerHTML = `<h2>${page}  </h2>`;
 }
 
 function handleNavigation() {
