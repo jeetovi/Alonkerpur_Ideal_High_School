@@ -1,21 +1,21 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300&family=Roboto&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,800;1,900&display=swap');
+
+
+* {
     box-sizing: border-box;
-     
-}
- body{
-    background: #c8c4c4;
- }
- 
- 
-
-
-body{
-
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Bengali', sans-serif;
     font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
-.card{
-   
+
+body {
+    background: #c8c4c4;
+}
+
+.card {
+
     border: 1px solid rgb(246, 6, 6);
     -webkit-box-shadow: 1px 6px 15px -1px rgba(1, 1, 1, 0.75);
     -moz-box-shadow: 1px 6px 15px -1px rgba(28, 27, 27, 0.75);
@@ -23,8 +23,9 @@ font-family: 'Source Sans 3', sans-serif;
     transition: 0.3s;
     padding: 10PX;
 }
- .footer{
-    
+
+.footer {
+
     border: 1px solid rgb(246, 6, 6);
     -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
     -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
@@ -32,9 +33,10 @@ font-family: 'Source Sans 3', sans-serif;
     transition: 0.3s;
     padding: 10PX;
 
- }
- .massage{
-  
+}
+
+.massage {
+
     border: 1px solid rgb(246, 6, 6);
     -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
     -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
@@ -42,11 +44,11 @@ font-family: 'Source Sans 3', sans-serif;
     transition: 0.3s;
     padding: 10PX;
 
- }
-  
+}
 
-.table-section{
-   
+
+.table-section {
+
     border: 1px solid rgb(246, 6, 6);
     -webkit-box-shadow: 1px 6px 15px -1px rgba(79, 79, 79, 0.75);
     -moz-box-shadow: 1px 6px 15px -1px rgba(82, 82, 82, 0.75);
@@ -54,6 +56,7 @@ font-family: 'Source Sans 3', sans-serif;
     transition: 0.3s;
     padding: 10PX;
 }
+
 /* .carousel-item:hover{
     border: 1px dashed rgb(0, 0, 0);
     -webkit-box-shadow: -4px 17px 24px 0px rgba(0, 0, 0, 0.75);
@@ -75,41 +78,49 @@ padding: 10PX;
   */
 
 
-.Teacher img{
+.Teacher img {
     width: 60%;
     height: 170px;
 }
 
 
 
-th,td,tr{
+th,
+td,
+tr {
     border: 1px solid gray;
 }
-th{
+
+th {
     background-color: beige;
 }
- 
 
 
- 
- /* sign up  */
- .form-control{
+
+
+/* sign up  */
+.form-control {
     height: 41px;
     background: #f2f2f2;
     box-shadow: none !important;
     border: none;
 }
-.form-control:focus{
+
+.form-control:focus {
     background: #e2e2e2;
 }
-.form-control, .btn{        
+
+.form-control,
+.btn {
     border-radius: 3px;
 }
-.signup-form{
+
+.signup-form {
     width: 390px;
     margin: 30px auto;
 }
-.signup-form form{
+
+.signup-form form {
     color: #999;
     border-radius: 3px;
     margin-bottom: 15px;
@@ -117,84 +128,164 @@ th{
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     padding: 30px;
 }
+
 .signup-form h2 {
     color: #333;
     font-weight: bold;
     margin-top: 0;
 }
+
 .signup-form hr {
     margin: 0 -30px 20px;
-}    
-.signup-form .form-group{
+}
+
+.signup-form .form-group {
     margin-bottom: 20px;
 }
-.signup-form input[type="checkbox"]{
+
+.signup-form input[type="checkbox"] {
     margin-top: 3px;
 }
-.signup-form .row div:first-child{
+
+.signup-form .row div:first-child {
     padding-right: 10px;
 }
-.signup-form .row div:last-child{
+
+.signup-form .row div:last-child {
     padding-left: 10px;
 }
-.signup-form .btn{        
+
+.signup-form .btn {
     font-size: 16px;
     font-weight: bold;
     background: #3598dc;
     border: none;
     min-width: 140px;
 }
-.signup-form .btn:hover, .signup-form .btn:focus{
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
     background: #2389cd !important;
     outline: none;
 }
-.signup-form a{
+
+.signup-form a {
     color: #fff;
     text-decoration: underline;
 }
-.signup-form a:hover{
+
+.signup-form a:hover {
     text-decoration: none;
 }
-.signup-form form a{
+
+.signup-form form a {
     color: #3598dc;
     text-decoration: none;
-}	
-.signup-form form a:hover{
+}
+
+.signup-form form a:hover {
     text-decoration: underline;
 }
+
 .signup-form .hint-text {
     padding-bottom: 15px;
     text-align: center;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-input[type=text], select, textarea {
-  width: 100%;
-  height: 40px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  margin-bottom: 3px;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
- 
- 
+
+div.example {
+    background-color: rgb(51, 61, 205);
+    padding: 10px;
+}
+
+@media screen and (min-width: 601px) {
+    div.example {
+``````````        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.example {
+        font-size: 30px;
+    }
+}
+/* Style for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown item links */
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the link color on hover */
+.dropdown-menu a:hover {
+    background-color: #ddd;
+    
+}
+
+/* Show the dropdown menu when hovering over the dropdown container */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media screen and (max-width: 500px) {
+    .school-1{
+        font-size: 16px;
+        text-align: center;
+    }
+    };
+  
