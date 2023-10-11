@@ -288,4 +288,9 @@ div.example {
         text-align: center;
     }
     };
+    @media only screen and (max-width: 600px) {
+        .tablewidth {
+          width: 50%;
+        }
+      }
   
